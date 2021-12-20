@@ -26,7 +26,7 @@ public class J1 {
 			}
 			}
 		}catch( RuntimeException e){
-			System.out.println("輸入三次錯誤！程式停止！");
+			throw new RuntimeException("輸入三次錯誤！程式停止！");
 		}
 	}
 
